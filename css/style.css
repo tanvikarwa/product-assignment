@@ -1,0 +1,503 @@
+body{
+    margin: 5em 0 8em 0;
+    text-overflow: "";
+}
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    background-color:transparent ;
+}
+
+.searchbar input{
+    border: none;
+    background-color:transparent ;    
+}
+
+.content{
+    font-family: 'Playfair Display', serif;
+    color: rgba(64, 35, 9, 100);
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.fulllogo-tab{
+    display: none;
+}
+
+.desktopmenu{
+    display: none;
+}
+
+.navmenu{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    box-shadow: 0.05em 0.25em rgba(117, 82, 50, 25);
+    z-index: 1;
+    width: 100%;
+}
+
+.mobilemenu{
+    display :flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin: 0.4em 0;
+    padding: 0 0.8em 0.8em;
+}
+
+.mobilemenu img{
+    height: 2em;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5em 0;
+    padding: 0.5em 1.5em;
+    border: 0.10em solid rgba(117, 82, 50, 100);
+    border-radius: 0.5em;
+    vertical-align: middle;
+}
+
+.search
+{
+    padding: 0 0.5em;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner-content{
+    position: absolute;
+    padding: 0.4em 0.7em;
+    left: 4em;
+    right: 4em;
+    bottom: 2em;
+    font-size: 1em;
+    color: white;
+    background-color:rgba(64, 35, 9, 0.9);
+    border-radius: 0.3em;
+}
+
+.categories{
+    margin: 2em auto;
+    /* padding: 0 1em; */
+}
+
+.categories-name h1{ 
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.categories-name p{ 
+    font-size: 1em;
+}
+
+.categories-name img{ 
+    width: 50%;
+}
+
+.prod-img{
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1em 1em;
+  padding: 2em 1em 8em 1em;
+  border: 0.2em solid rgba(117, 82, 50, 100);
+  border-radius: 0.8em;
+  font: 500;
+  box-shadow: 0.1em 0.15em rgba(117, 82, 50, 0.4);
+  background-size: cover;
+}
+
+.plus {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
+.plus img{
+    height: 1.2em;
+}
+
+.size{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 1em;
+    margin: 0.5em 0 2em 0;
+}
+
+.prod-content h2{
+    font-size: 1.2em;
+}
+
+.prod-content legend{
+    margin: 0.5em 0;
+}
+
+.menu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(117, 82, 50, 100);
+    margin: 0.8em 0 0 0;
+    padding: 0.5em 0.5em;
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu li{
+    margin: 0.5em 0;
+}
+
+.menu img{
+    height: 1.8em;
+}
+.menu-lbl {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+footer{
+    margin: 0.5em 0;
+}
+
+.copyright{
+    display: none;
+}
+
+.mood-01 {
+    background-image: url('/img/mood_01.jpg');
+}
+
+.mood-02 {
+    background-image: url('/img/mood-02.jpg');
+}
+
+.time-01 {
+    background-image: url('/img/time_01.jpg');
+}
+
+.time-02 {
+    background-image: url('/img/time-02.jpg');
+}
+
+.reason-01 {
+    background-image: url('/img/reason-01.jpg');
+}
+
+.reason-02 {
+    background-image: url('/img/reason-02.jpg');
+}
+
+.owncoffee-01 {
+    background-image: url('/img/coffee-01.jpg');
+}
+
+.owncoffee-02 {
+    background-image: url('/img/coffee-2.jpg');
+}
+
+.beans-01 {
+    background-image: url('/img/beans-01.jpg');
+}
+
+.beans-02 {
+    background-image: url('/img/beans-02.jpg');
+}
+
+.pname{
+    margin: 1.5em 0 0 0;
+    padding: 0em 2em;
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.pname h1{
+    font-size: 1.5em;
+    margin: 0 0 0.2em 0;
+}
+
+.pname h2{
+    font-size: 1.2em;
+    margin: 0 0 0.2em 0;
+}
+
+.order{
+    padding: 0.5em;
+    position: fixed;
+    bottom: 5em;
+    right: 2em;
+    z-index: 1;
+    color: white;
+    background-color: rgba(64, 35, 9, 100);
+    border-radius: 0.2em;
+}
+
+.psize select{
+    padding: 0.2em;
+}
+
+.psize span{
+    display: block;
+    margin: 0.8em 0 0 0;
+}
+
+.product-img{
+background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin: 1em auto; */
+  padding: 8em 0em;
+  
+}
+
+.pimage{
+    background-image: url('/img/mood_01.jpg');
+}
+
+@media screen and (min-width: 50em) {
+    .body{
+        margin: 5em 0 0 0;
+    }
+
+    .mobilemenu{
+        margin: 1.5rem 0;
+        padding: 0 3.5em 1.4em 3.5em;
+    }
+    
+    .logo{
+        display: none;
+    }
+
+    .fulllogo-tab{
+        display: inline;
+    }
+
+    .navmenu img{
+        height: 3em;
+    }
+
+    .searchbar{
+        margin: 5em 3em 1.5em 3em;
+        padding: auto 0.3em;
+        font-size: 2rem;
+    }
+
+    .searchbar img{
+        height: 1.4em;
+    }
+    
+    .banner-content{
+    right: 4em;
+    left: 4em;
+    bottom: 3em;
+    font-size: 2.2rem;
+    }
+
+    .categories{
+        margin: 1.5em 0;
+        padding: 0 2em;
+        font-size: 1.5rem;
+    }
+
+    .categories-name img{
+        width: 25%;
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+    .prod-img{
+        margin: 1em auto;
+        padding: 2em 1em 10em 1em;
+    }
+
+    .plus {
+        bottom: 1.8rem;
+        right: 1.8rem;
+    }
+
+    .plus img{
+        height: 2.5rem;
+    }
+
+    .menu{
+        margin: 1.5em 0 0 0;
+        padding: 0 5rem;
+        font-size: 1.5rem;
+    }
+
+    .menu img{
+        height: 2rem;
+    }
+
+    footer p{
+        margin: 1em 0;
+        font-size: 1.5rem;
+    }
+
+    footer{
+        display: inline-block;
+        margin: 1rem 0;
+        font-size: 1rem;
+    }
+
+    .pname{
+        margin: 2rem 0 0 0;
+        padding: 0em 4em;
+        font-size: 1.5rem;
+    }
+
+    .pname h1{
+        margin: 0 0 1rem 0;
+    }
+
+    .psize label{
+        padding: 0 1em 0 0;
+    }
+
+    .product-img{
+        padding: 12em 0em;         
+    }
+/* 
+    .psize{
+        display: flex;
+        justify-content: space-around;
+    } */
+}
+  
+  @media screen and (min-width: 80em) {
+    
+    .body{
+    } 
+
+    .mobilemenu, .menu{
+        display: none;
+    }
+
+    .desktopmenu{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1.5rem 0 0 0;
+        padding: 0 3em 1.4em 3em;   
+        text-align: left;     
+    }
+    .desktopmenu ul{
+        margin: 0.3em 0;
+        display: flex;
+        justify-content: space-between;
+        font-size: 2em;
+        text-transform: capitalize;
+    }
+
+    .fulllogo img{
+        height: 4em;
+    }
+    .desktop-menu-label{
+        padding: 0 auto;
+        color: rgba(117, 82, 50, 100);
+        text-decoration: none;
+        vertical-align: middle;
+    }
+    .searchbar{
+        margin: 5em 7em 1.5em 7em;
+    }
+
+    .banner-content{
+        right: 8em;
+        left: 8em;
+        font-size: 3em;
+    }
+
+    .categories{
+        margin: 3em 0;
+        padding: 0 2em;
+        font-size: 2rem;
+    }
+
+    .products{
+        margin: 2rem 0;
+    }
+    .prod-img{
+        margin: 1em auto;
+        width: 18em;
+        max-width: 22em;
+        padding: 2em 1em 10em 1em;
+
+    }
+    .size {
+        font-size: 2rem;
+    }
+    
+    footer{
+        display: block;
+        margin: 0;
+    }
+
+    footer p{
+        font-size: 1.5em;
+        margin: 3rem 0;
+    }
+
+    .copyright {
+        display: grid;
+        padding: 0.7em 8em 0.7 0;
+        grid-template-columns: 1fr 0.7fr 0.5fr;
+        font-size: 1em;
+        background-color: rgba(64, 35, 9, 100);
+        
+    }
+
+    .copyright ul{
+        
+        display: flex;
+        justify-content: space-between;
+        /* grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-evenly; */
+    }
+
+    .copyright a{
+        color: white;
+        text-decoration: none;
+    }
+
+    
+    .pname{
+        margin: 2rem 0 0 0;
+        padding: 0em 8em;
+        font-size: 1.5rem;
+    }
+
+    .pname h1{
+        margin: 3rem 0 2rem 0;
+    }
+
+    .psize label{
+        padding: 0 1em 0 0;
+    }
+
+    .product-img{
+        padding: 18em 0em;         
+    }
+
+    .order{
+        bottom: 3em;
+        right: 5em;
+    }
+    
+  }

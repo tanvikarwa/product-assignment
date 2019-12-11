@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg width="13" height="13" viewBox="0 0 13 13" fill="none">
+    <path
+    d="M6.5 13C10.0899 13 13 10.0899 13 6.5C13 2.91015 10.0899 0 6.5 0C2.91015 0 0 2.91015 0 6.5C0 10.0899 2.91015 13 6.5 13Z"
+    fill="white" />
+    <path d="M6.5 3.38V9.88001" stroke="#755232" stroke-width="2" stroke-miterlimit="10"
+    stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M9.75 6.5H3.25" stroke="#755232" stroke-width="2" stroke-miterlimit="10"
+    stroke-linecap="round" stroke-linejoin="round" />
+</svg>
